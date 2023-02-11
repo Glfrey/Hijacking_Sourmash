@@ -1,0 +1,23 @@
+#Generating signatures
+sourmash sketch dna -p k=3,k=5,k=7,k=9,k=11,k=13,k=15,k=17,k=19,k=21,k=23,k=25,k=27,k=29,k=31,k=33,k=35,k=37,k=39,k=41,k=43,k=45,k=47,k=49,k=51,k=53,k=55,k=57,k=59,k=61,abund,scaled=1000 <directory_to_fasta_files>/*fa.gz
+sourmash sketch dna -p k=3,k=5,k=7,k=9,k=11,k=13,k=15,k=17,k=19,k=21,k=23,k=25,k=27,k=29,k=31,k=33,k=35,k=37,k=39,k=41,k=43,k=45,k=47,k=49,k=51,k=53,k=55,k=57,k=59,k=61,abund,scaled=500 <directory_to_fasta_files>/*fa.gz
+sourmash sketch dna -p k=3,k=5,k=7,k=9,k=11,k=13,k=15,k=17,k=19,k=21,k=23,k=25,k=27,k=29,k=31,k=33,k=35,k=37,k=39,k=41,k=43,k=45,k=47,k=49,k=51,k=53,k=55,k=57,k=59,k=61,abund,scaled=250 <directory_to_fasta_files>/*fa.gz
+sourmash sketch dna -p k=3,k=5,k=7,k=9,k=11,k=13,k=15,k=17,k=19,k=21,k=23,k=25,k=27,k=29,k=31,k=33,k=35,k=37,k=39,k=41,k=43,k=45,k=47,k=49,k=51,k=53,k=55,k=57,k=59,k=61,abund,scaled=125 <directory_to_fasta_files>/*fa.gz
+
+#Comparison e.g for k=11
+#Frequency
+sourmash compare -k=11 --dna -o <species>_k11_freq --csv <species>_k11_freq_compare.csv <directory_to_signature_files>/*sig
+#Composition
+sourmash compare -k=11 --dna -o <species>_k11_comp --csv <species>_k11_comp_compare.csv <directory_to_signature_files>/*sig --ignore-abundance
+
+
+#Plot
+#Frequency
+sourmash plot --labeltext new_labels.txt --csv <species>_k11_freq_plot.csv --labels <species>_k11_freq
+#Composition
+sourmash plot --labeltext new_labels.txt --csv <species>_k11_comp_plot.csv --labels <species>_k11_comp
+
+Where "new_labels.txt" are the labels I provided, which I used to remove the path structure from my sourmash generated labels. For example, given a file:
+/path/to/my/chromosomes/signatures/ChromosomeA.sig, sourmash will use the entire path as my label, which is fairly undesirable. As such, I would replace this label with <ChromosomeA> in a new text file imaginatively called "new_labels.txt" for all my chromosomes, and feed this to Sorumash for plotting.  
+ 
+
