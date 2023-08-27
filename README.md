@@ -4,7 +4,7 @@ This repository contains scripts, information and data for the paper "Hijacking 
 
 For the sourmash program, see the sourmash [github](https://github.com/sourmash-bio/sourmash),[documentation](https://sourmash.readthedocs.io/en/latest/) and [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6720031/).
 
-## Questions and issues?
+## Questions and issues
 If you have a question regarding the application of sourmash to polyploid genomics please feel free to reach out to me by opening an issue. This ensuress others who may have the same question can see read my responses. Please note, this is not monitored full time but I will do my best to get back to you ASAP.
 If you have a question or issue regarding sourmash itself, please follow their guidelines for help.
 
