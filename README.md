@@ -32,6 +32,18 @@ And the following dimensions for multi-genome figures (i.e. progenitor plots) an
 fig = pylab.figure(figsize=(12, 10))
 ```
 
+For legibility purposes, one may wish to modify the font size of sourmash' output, especially if the figure size has been modified. This can be achieved by modifying the dendrogram commands in "commands.py" on line 317 and "fig.py" on line 50 to include leaf size. For example, the default clustering command in "commands.py" is:
+
+```
+sch.dendrogram(Y, orientation='right', labels=labeltext)
+```
+
+Which modified with the below outputs a larger font size:
+
+```
+sch.dendrogram(Y, orientation='right', labels=labeltext,  leaf_font_size = 12)
+```
+
 ## Example sourmash commands 
 
 The following section contains the commands used to produce the results for the Hijacking Sourmash paper. Exact directories were provided where "<DirectoryOfChromosomes>" is written. In sourmash plot, the labels originally procued from sourmash are overwridden by the flag "--labeltext new_labels.txt", where "new_labels.txt" ccontained exactly the same labels for the chromosomes, in exactly the same order, but with the directory structure that is produced for the labels by default, removed for legibility. 
