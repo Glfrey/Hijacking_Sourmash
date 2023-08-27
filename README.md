@@ -6,7 +6,7 @@ For the sourmash program, see the sourmash [github](https://github.com/sourmash-
 
 ## Questions and issues?
 If you have a question regarding the application of sourmash to polyploid genomics please feel free to reach out to me by opening an issue. This ensuress others who may have the same question can see read my responses. Please note, this is not monitored full time but I will do my best to get back to you ASAP.
-If you have a question or issue regarding sourmash itself, please follow their guidelines for contant.
+If you have a question or issue regarding sourmash itself, please follow their guidelines for help.
 
 ## Sourmash modification
 
