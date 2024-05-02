@@ -1,6 +1,6 @@
 # Hijacking Sourmash
 
-This repository contains scripts, information and data for the manuscript "Hijacking a rapid and scalable metagenomic method for plant comparative genomics highlights subgenome dynamics and evolution" accepted for publication by Applications in Plant Sciences (publication due this summer). If you wish to see a copy of the manuscript prior to publication please reach out to me @ gillian.reynolds@earlham.ac.uk.
+This repository contains scripts, information and data for the manuscript ["Hijacking a rapid and scalable metagenomic method for plant comparative genomics highlights subgenome dynamics and evolution"](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.1002/aps3.11581). 
 
 For the sourmash program, see the sourmash [github](https://github.com/sourmash-bio/sourmash),[documentation](https://sourmash.readthedocs.io/en/latest/) and [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6720031/).
 
