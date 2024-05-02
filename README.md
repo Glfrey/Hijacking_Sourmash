@@ -4,6 +4,10 @@ This repository contains scripts, information and data for the manuscript ["Hija
 
 For the sourmash program, see the sourmash [github](https://github.com/sourmash-bio/sourmash),[documentation](https://sourmash.readthedocs.io/en/latest/) and [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6720031/).
 
+## Citation
+
+If you use this work please cite Reynolds,G., Mumey, B., Strnadova-Neeley, V., & Lachowiec, J. (2024). Hijacking a rapid and scalable metagenomic method reveals subgenome dynamics and evolution in polyploid plants. *Applications In Plant Science*. e11581. 
+
 ## Questions and issues
 If you have a question regarding the application of sourmash to polyploid genomics please feel free to reach out to me by opening an issue. This ensuress others who may have the same question can see read my responses. Please note, this is not monitored full time but I will do my best to get back to you ASAP.
 If you have a question or issue regarding sourmash itself, please follow their guidelines for help.
